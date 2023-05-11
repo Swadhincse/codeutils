@@ -1,26 +1,16 @@
 
 import './App.css';
+import Navbar from './Components/Navbar';
+import TextForm from './Components/TextForm';
 
 function App() {
   return (
     <>
-    <nav>
-      <li>uniun</li>
-      <li>njdcn</li>
-      <li> ccjjc</li>
-    </nav>
-    <div className="blank">
-      <h1>
-        New react app
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure voluptatum corporis voluptatem amet quibusdam placeat aut enim, magnam odit quae, dignissimos vel atque a expedita!
-      </p>
-
-
+    <Navbar title = "Codeutils"/> 
+    <div className="container">
+    <TextForm heading = "Enter the text "/>
     </div>
-    
-    </>
+   </>
   );
 }
 
